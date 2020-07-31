@@ -1,0 +1,90 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+# Settings
+exclude:
+  [
+    CNAME,
+    README.md,
+    LICENSE.md,
+    .gitignore,
+    package.json,
+    yarn.lock,
+    _js,
+    _scss,
+    _images,
+    gulpfile.js,
+    gulpconfig.js,
+    node_modules,
+    gemfile,
+    Gemfile.lock,
+    lint-staged.config.js,
+    prettier.config.js,
+  ]
+permalink: /:title/
+compress_html:
+  clippings: all
+  comments: all
+dark_theme: false
+
+# Site meta
+title: It's Spring!
+tagline: 'A one-page, two-column Jekyll theme.'
+keywords: 'connor, baer, bear, designer, developer, design, code, jekyll, spring'
+description: 'A one-page, two-column Jekyll theme that pairs beautifully styled content with contextual media.'
+url: https://primavera.netlify.app
+baseurl: '/spring'
+assets: '/assets'
+images: '/images'
+logo: /ass/ets/apple-icon-144x144.png
+twitter:
+  username: connor_baer
+facebook:
+  app_id: 
+
+google_analytics_key: 
+google_site_verification: 
+
+author:
+  name: Nuno Rodrigues
+  url: https://nunogand.com/
+  email: 
+  twitter: nunogand
+
+social:
+  twitter: https://twitter.com/nunogand
+  instagram: https://instagram.com/nunogand
+  github: https://github.com/nunogand/primavera
+  medium: 
+
+version: 4.1.1
+
+github:
+  repo: https://github.com/nunogand/primavera
+
+# Integrations
+# typekit:              fcv7rfe
+
+google_fonts:
+  PT Sans: 400, 700
+  PT Serif: 400, 700
+  Playfair Display: 400
+
+google_analytics_key: 
+# google_site_verification: 
+
+# Content
+excerpt_separator: <!-- Read more -->
+
+navigation:
+  Medium: 
+  Twitter: https://twitter.com/nunogand
+  Github: https://github.com/nunogand
