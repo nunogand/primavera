@@ -35,6 +35,10 @@ compress_html:
   comments: all
 dark_theme: false
 
+sass:
+  sass_dir: _scss
+  style: compressed
+
 # Site meta
 title: It's Spring!
 tagline: 'A one-page, two-column Jekyll theme.'
