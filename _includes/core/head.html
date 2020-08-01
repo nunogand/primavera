@@ -29,15 +29,16 @@
   {% if site.google_fonts %}
     <link href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}" rel="stylesheet">
   {% endif %}
-   <!--<link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/styles{% if site.dark_theme %}-dark{% endif %}.css">
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />-->
-   
+    <!--<link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/main{% if site.dark_theme %}-dark{% endif %}.css">-->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+ 
+  <!--
   <style>
     {% capture include_to_scssify %}
     {% include /main.css %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
-  </style>
+  </style>-->
 
   {% if site.typekit %}
   <!-- Typekit -->
