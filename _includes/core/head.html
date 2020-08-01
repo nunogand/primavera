@@ -5,13 +5,13 @@
   <!-- Enable responsiveness on mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
 
-  <!-- Link to page translations -->
+  <!-- Link to page translations 
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %} {% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> {% endfor %} {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} {% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
-  {% endfor %}
+  {% endfor %} -->
 
   <!-- Prefetch the pages in the navigation menu -->
   {% assign entries = site.pages | where: "lang", page.lang | sort: "order" %}
@@ -29,8 +29,8 @@
   {% if site.google_fonts %}
     <link href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}" rel="stylesheet">
   {% endif %}
-  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/styles{% if site.dark_theme %}-dark{% endif %}.css">
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+   <!--<link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/styles{% if site.dark_theme %}-dark{% endif %}.css">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />-->
    
   <style>
     {% capture include_to_scssify %}
