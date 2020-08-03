@@ -55,16 +55,3 @@ E um dia, ó flor do Luxo, nas estradas,<br>
 Sob o cetim do Azul e as andorinhas,<br>
 Eu hei de ver errar, alucinadas,<br>
 E arrastando farrapos – as rainhas.<br>
-
-
-<pre>
-Sem que nisso a desgoste ou desenfade,
-Quantas vezes, seguindo-lhe as passadas,
-Eu vejo-a, com real solenidade,
-Ir impondo toilettes complicadas!...
-
-Em si tudo me atrai como um tesoiro:
-O seu ar pensativo e senhoril,
-A sua voz que tem um timbre de oiro
-E o seu nevado e lúcido perfil!
-</pre>
