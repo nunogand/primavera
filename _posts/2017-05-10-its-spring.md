@@ -4,7 +4,8 @@ title: Deslumbramentos
 image: spring
 ---
 
-<span class="titulo">Deslumbramentos</span>
+<span class="titulo">Deslumbramentos</span><br>
+
 <span class="caps" alt="M">ilady</span>, é perigoso contemplá-la,<br>
 Quando passa aromática e normal,<br>
 Com seu tipo tão nobre e tão de sala,<br>
