@@ -5,7 +5,7 @@ image: spring
 ---
 
 <span class="titulo"></span>
-<span class="soneto">
+<div class="soneto">
 <span class="caps" alt="M">ilady</span>, é perigoso contemplá-la,<br>
 Quando passa aromática e normal,<br>
 Com seu tipo tão nobre e tão de sala,<br>
@@ -55,7 +55,8 @@ E um dia, ó flor do Luxo, nas estradas,<br>
 Sob o cetim do Azul e as andorinhas,<br>
 Eu hei de ver errar, alucinadas,<br>
 E arrastando farrapos – as rainhas.<br>
-</span>
+</div>
+
 <pre>
 Sem que nisso a desgoste ou desenfade,
 Quantas vezes, seguindo-lhe as passadas,
