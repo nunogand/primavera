@@ -1,52 +1,58 @@
 ---
 layout: post
-title: It's Spring!
+title: Deslumbramentos
 image: spring
 ---
 
-<span class="caps" alt="W">elcome</span>, sweet season of delight,   
-What beauties charm the wond'ring sight   
-In thy enchanting reign!   
-How fresh descends the morning dew,   
-Whilst op'ning flow'rs of various hue   
-Bedeck the sprightly plain.   
-The artless warblers of the grove   
-Again unite in songs of love,   
-To bless thy kind return:   
-But first the lark, who roaring seems   
-To hail the orb of day, whose beams   
-With fresh refulgence burn.
+<span class="titulo"></span>
+<span class="soneto">
+<span class="caps" alt="M">ilady</span>, é perigoso contemplá-la,
+Quando passa aromática e normal,
+Com seu tipo tão nobre e tão de sala,
+Com seus gestos de neve e de metal.
 
-The limpid brook that purls along,   
-The tuneful blackbird's joyous song,   
-The softly-whisp'ring breeze;   
-The mossy hills, which now invite,   
-These with the verdant meads unite,   
-Th' elated mind to please.   
-The mind with thoughts of good possest,   
-With innocence and virtue blest,   
-Untaught in vice's ways;   
-May taste those joys by nature giv'n,   
-May lift th' enraptur'd eye to heav'n,   
-And their great Author praise.   
-Stern Winter's gloomy season past,   
-We see fair Spring advances fast,   
-With Summer in the rear;   
-Soon Autumn's shades will interpose,   
-And a succeeding Winter close   
-The swift-revolving year.
+Sem que nisso a desgoste ou desenfade,
+Quantas vezes, seguindo-lhe as passadas,
+Eu vejo-a, com real solenidade,
+Ir impondo toilettes complicadas!...
 
-Of human life an emblem true,   
-The early morn of youth we view,   
-In Spring's delightful face;   
-Meridian life's a Summer's day,   
-With Autumn fades; its quick decay,   
-In winter's blast we trace.   
-Then let us prize each fleeting hour,   
-Improve the moments in our pow'r,   
-E'er time shall cease to be;   
-Then shall our spirits, taking wing,   
-Be crown'd with an eternal Spring,   
-From Wint'ry storms set free.
+Em si tudo me atrai como um tesoiro:
+O seu ar pensativo e senhoril,
+A sua voz que tem um timbre de oiro
+E o seu nevado e lúcido perfil!
 
-— _By [Elizabeth Bentley](https://allpoetry.com/poem/8609041-Ode-To-Spring-by-Elizabeth-Bentley)_
+Ah! Como me estonteia e me fascina...
+E é, na graça distinta do seu porte,
+Como a Moda supérflua e feminina,
+E tão alta e serena como a Morte!...
+
+Eu ontem encontrei-a, quando vinha,
+Britânica, e fazendo-me assombrar;
+Grande dama fatal, sempre sozinha,
+E com firmeza e música no andar!
+
+O seu olhar possui, num jogo ardente,
+Um arcanjo e um demónio a iluminá-lo;
+Como um florete, fere agudamente,
+E afaga como o pêlo de um regalo!
+
+Pois bem. Conserve o gelo por esposo,
+E mostre, se eu beijar-lhe as brancas mãos,
+O modo diplomático e orgulhoso
+Que Ana de Áustria mostrava aos cortesãos.
+
+E enfim prossiga altiva como a Fama,
+Sem sorrisos, dramática, cortante;
+Que eu procuro fundir na minha chama
+Seu ermo coração, como um brilhante.
+
+Mas cuidado, milady, não se afoite,
+Que hão de acabar os bárbaros reais;
+E os povos humilhados, pela noite,
+Para a vingança aguçam os punhais.
+
+E um dia, ó flor do Luxo, nas estradas,
+Sob o cetim do Azul e as andorinhas,
+Eu hei de ver errar, alucinadas,
+E arrastando farrapos – as rainhas.
+</span>
