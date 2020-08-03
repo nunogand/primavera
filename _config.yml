@@ -8,6 +8,7 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll_picture_tag
 
 # Settings
 exclude:
@@ -92,3 +93,9 @@ navigation:
   Medium: 
   Twitter: https://twitter.com/nunogand
   Github: https://github.com/nunogand
+  
+picture:
+  source: "assets/images/posts"
+  output: "assets/images/posts"
+  suppress_warnings: true
+  ignore_missing_images: true
