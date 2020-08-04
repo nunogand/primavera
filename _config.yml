@@ -41,8 +41,8 @@ sass:
   style: compressed
 
 # Site meta
-title: O livro de Cesário verde
-tagline: 'A one-page, two-column Jekyll theme.'
+title: O livro de Cesário Verde
+tagline: 'O livro de Cesário Verde'
 keywords: 'Cesário, Verde, Poesia, Livro'
 description: 'Poesia'
 url: https://primavera.netlify.app
