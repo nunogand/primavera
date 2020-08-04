@@ -3,9 +3,6 @@ layout: post
 title: Setentrional
 image: spring
 ---
-
-<span class="titulo"></span>
-<span class="soneto">
 <span class="caps" alt="T">alvez</span> já te esquecesses, ó bonina,  
 Que viveste no campo só comigo,  
 Que te osculei a boca purpurina,  
@@ -70,4 +67,3 @@ E, tristíssima Helena, com verdade,
 Se pudera na terra achar suplícios,  
 Eu também me faria gordo frade  
 E cobriria a carne de cilícios.  
-</span>
