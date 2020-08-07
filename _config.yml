@@ -8,8 +8,7 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-srcset
-
+ 
 
 # Settings
 exclude:
