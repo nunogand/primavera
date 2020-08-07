@@ -10,9 +10,7 @@ layout: default
     <div class="post-header ctnr-golden">
       <h1 class="post-title">{{ page.title }}</h1>
     </div>
-	<div class="post-image">
-    {% image_tag src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}.jpeg" width="100" %}
-	    </div>
+	<img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}.jpeg" srcset="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}.jpeg 1000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}-large.jpeg 2000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}-small.jpeg 500w" sizes="(min-width: 768px) 50vw, 100vw">
 	<div class="ctnr-wide">
       {{ content }}
     </div>
