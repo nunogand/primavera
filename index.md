@@ -1,6 +1,7 @@
 ---
 layout: home
 title: O livro de Cesário Verde
+image: capa
 ---
 
 {% for post in site.posts %}
