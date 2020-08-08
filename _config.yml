@@ -8,7 +8,11 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - jekyll-seo-tag
- 
+
+picture:
+  source: "_images/posts/"
+  output: "assets/images/posts"
+  fast_build: true
 
 # Settings
 exclude:
