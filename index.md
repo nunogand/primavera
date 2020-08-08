@@ -17,7 +17,7 @@ title: O livro de Cesário Verde
       </div>
     {% endif %}
     </span>
- 	{% picture {{ page.image | append: ".jpg" }} --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
+ 	{% picture {{ page.image | append: ".jpg" }} %}
 	<div class="ctnr-wide">
     {{ post.content }}
     </div>
