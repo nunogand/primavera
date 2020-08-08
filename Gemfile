@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'jekyll', '~> 4.1', '>= 4.1.1'
 gem 'github-pages'
 gem 'jekyll-feed'
 gem 'jekyll-gist'
