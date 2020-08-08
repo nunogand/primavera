@@ -12,7 +12,7 @@ layout: default
 	    
     </div>
 	<img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}.jpg" srcset="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}.jpg 1000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}-large.jpg 2000w, {{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{page.image}}-small.jpg 500w" sizes="(min-width: 768px) 50vw, 100vw">
-	{% picture {{ page.image | append: ".jpg" }} %}
+	{% picture {{ page.image | append: ".jpg" }} --img class="post-image" %}
 	  <div class="ctnr-wide">
 		 
       {{ content }}
