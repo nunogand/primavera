@@ -18,7 +18,7 @@ image: capa
       </div>
     {% endif %}
     </span>
- 	{% picture {{ page.image }} %}
+ 	{% picture {{ page.image | append: ".jpg" }} --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
 	<div class="ctnr-wide">
     {{ post.content }}
     </div>
