@@ -11,11 +11,9 @@ layout: default
       <h1 class="post-title">{{ page.title }}</h1>
 	    
     </div>
-	{% if page.image %}
+	
 	{% picture {{ page.image | append: ".jpg" }} --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
-	{% else %}
-	{% picture milady.jpg --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
-	{% endif %}
+	
 	  <div class="ctnr-wide">
 		 
       {{ content }}
