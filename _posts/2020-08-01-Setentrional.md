@@ -2,6 +2,7 @@
 layout: post
 title: Setentrional
 image: spring
+foto: b.jpg
 ---
 <span class="caps" alt="T">alvez</span> já te esquecesses, ó bonina,  
 Que viveste no campo só comigo,  
