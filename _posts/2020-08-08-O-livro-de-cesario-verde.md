@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Débil
+title: Dedicatória
 image: capa
 ---
 <span class="caps" alt="A"></span>qui deponho em suas mãos e debaixo dos seus lábios o livro de seu irmão. A minha «obra» terminou no dia em que ele saiu da nossa doce amizade para a nossa terrível amargura: morri, meu querido Jorge – deixe-me chamar assim ao irmão do meu querido Cesário; – morri para as alegrias do trabalho, para as esperanças nos enganos doces! O desmoronamento fez-se, a um tempo, no
