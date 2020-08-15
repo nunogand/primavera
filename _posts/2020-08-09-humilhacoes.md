@@ -3,7 +3,8 @@ layout: post
 title: Humilhações
 image: humilhacoes
 ---
-De todo o coração – a Silva Pinto
+De todo o coração – a Silva Pinto  
+  
 
 <span class="caps" alt="E"></span>sta aborrece quem é pobre. Eu, quase Job,  
 Aceito os seus desdéns, seu ódios idolatro-os;  
