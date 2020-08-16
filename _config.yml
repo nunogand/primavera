@@ -89,7 +89,7 @@ google_fonts:
   PT Serif: 400, 700
   Playfair Display: 400
 
-google_analytics_key: 
+#google_analytics_key:
 # google_site_verification: 
 
 # Content
