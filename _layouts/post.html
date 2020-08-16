@@ -12,7 +12,7 @@ layout: default
 	    
     </div>
 	
-	{% picture {{ post.image | append: ".jpg" }} --alt {{ post.image }} --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
+	{% picture {{ page.image | append: ".jpg" }} --alt {{ page.image }} --img class="post-image" style="z-index: {{ lengthID | minus: forloop.index }}" %}
 	
 	  <div class="ctnr-wide">
 		 
