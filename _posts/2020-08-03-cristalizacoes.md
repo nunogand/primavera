@@ -4,7 +4,7 @@ title: Cristalizações
 image: cristalizacoes
 ---
 A Bettencourt Rodrigues, meu amigo  
-
+<br/><br/>
 <span class="caps" alt="F"></span>az frio. Mas, depois duns dias de aguaceiros,  
 Vibra uma imensa claridade crua.  
 De cócaras, em linha, os calceteiros,  
