@@ -123,7 +123,7 @@ Sem tronco, mas atléticas, inteiras,
 Carregam sobre a pobre caminhante,  
 Sobre a verdura rústica, abundante,  
 Duas frugais abóboras carneiras.  
-<br/><br/>
-Lisboa, Verão de 1877.  
+<br/>
+<p style="text-align:right">Lisboa, Verão de 1877.  
 
-Brinde aos Senhores Assinantes do Diário de Notícias em 1877.  
+Brinde aos Senhores Assinantes do Diário de Notícias em 1877.</p>
