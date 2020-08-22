@@ -3,8 +3,7 @@ layout: post
 title: Cristalizações
 image: cristalizacoes
 ---
-A Bettencourt Rodrigues, meu amigo  
-<br/><br/>
+<p style="text-align:right">A Bettencourt Rodrigues, meu amigo</p><br/>
 <span class="caps" alt="F"></span>az frio. Mas, depois duns dias de aguaceiros,  
 Vibra uma imensa claridade crua.  
 De cócaras, em linha, os calceteiros,  
@@ -124,8 +123,8 @@ Sem que inda o público a passagem abra,
 O demonico arrisca-se, atravessa  
 Covas, entulhos, lamaçais, depressa,  
 Com seus pezinhos rápidos, de cabra!  
-<br/><br/>
-Lisboa, Inverno de 1878.
+<br/>
+<p style="text-align:right">Lisboa, Inverno de 1878.
 <br/><br/>
 Revista de Coimbra, nº 1, Maio de 1879; republicada em Correspondência de
-Coimbra, 17 de Junho de 1879.
+Coimbra, 17 de Junho de 1879.</p>
