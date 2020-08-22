@@ -57,5 +57,4 @@ E, enorme, nesta massa irregular
 De prédios sepulcrais, com dimensões de montes,  
 A Dor humana busca os amplos horizontes,  
 E tem marés, de fel, como um sinistro mar!  
-<br/><br/>
-Em Portugal a Camões, publicação extraordinária do Jornal de Viagens do Porto, no dia 10 de Junho de 1880
+<br/><p style="text-align:right">Em Portugal a Camões, publicação extraordinária do Jornal de Viagens do Porto, no dia 10 de Junho de 1880</p>
