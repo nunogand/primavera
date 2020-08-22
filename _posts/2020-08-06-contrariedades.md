@@ -3,8 +3,8 @@ layout: post
 title: Contrariedades
 image: contrariedades
 ---
-A Coelho de Carvalho  
-
+<p style="text-align:right">A Coelho de Carvalho </p>
+<br/>
 <span class="caps" alt="E"></span>u hoje estou cruel, frenético, exigente;  
 Nem posso tolerar os livros mais bizarros.  
 Incrível! Já fumei três maços de cigarros  
