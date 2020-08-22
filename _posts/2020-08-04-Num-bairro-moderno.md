@@ -3,8 +3,7 @@ layout: post
 title: Num Bairro Moderno
 image: bairro
 ---
-A Manuel Ribeiro  
-<br/><br/>
+<p style="text-align:right">A Manuel Ribeiro</p><br/>
 <span class="caps" alt="D"></span>ez horas da manhã; os transparentes  
 Matizam uma casa apalaçada;  
 Pelos jardins estancam-se as nascentes,  
