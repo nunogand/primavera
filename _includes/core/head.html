@@ -7,12 +7,6 @@
 
   <link href="https://gmpg.org/xfn/11" rel="profile">
 
-  <!-- Link to page translations 
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %} {% for post in posts %}
-  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> {% endfor %} {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} {% for page in pages %}
-  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
-  {% endfor %} -->
-
   <!-- Prefetch the pages in the navigation menu -->
   {% assign entries = site.pages | where: "lang", page.lang | sort: "order" %}
   {% for entry in entries %}
@@ -25,26 +19,25 @@
     {% if page.title %} {{ page.title }} · {{ site.title }} {% else %} {{ site.title }} · {{ site.tagline }} {% endif %}
   </title>
 
-  <!-- CSS -->
-  {% if site.google_fonts %}
-    <link href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}" rel="stylesheet">
-  {% endif %}
+  <!-- CSS FONTS-->
+  <!-- [1 Preemptively warm up the fonts’ origin] -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<!-- [2 Initiate a high-priority, asynchronous fetch for the CSS file. Works in most modern browsers] -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}&display=swap" />
+
+<!-- [3 Initiate a low-priority, asynchronous fetch that gets applied to the page only after it’s arrived. Works in all browsers with JavaScript enabled] -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}"&display=swap" media="print" onload="this.media='all'" />
+
+<!-- [4 In the unlikely event that a visitor has intentionally disabled JavaScript, fall back to the original method] -->
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}"&display=swap" /> 
+</noscript>
+  
     <!--<link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/main{% if site.dark_theme %}-dark{% endif %}.css">-->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
  
- 
-
-  {% if site.typekit %}
-  <!-- Typekit -->
-  <script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
-  <script>
-    try {
-      Typekit.load({
-        async: true
-      });
-    } catch (e) {}
-  </script>
-  {% endif %}
+  
 
   <!-- Icons -->
   {% include core/icons.html %}
