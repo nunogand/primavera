@@ -3,8 +3,8 @@ layout: post
 title: Cadências Tristes
 image: cadencias-tristes
 ---
-A João de Deus
-<br/><br/>
+<p style="text-align:right">A João de Deus</p>
+<br/>
 <span class="caps" alt="Ó"></span> bom João de Deus, ó lírico imortal,  
 Eu gosto de te ouvir falar timidamente  
 Num beijo, num olhar, num plácido ideal;  
