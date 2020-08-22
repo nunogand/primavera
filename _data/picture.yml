@@ -1,6 +1,6 @@
 presets:
   default:
-    formats: [webp, original]
+    formats: [original]
     widths: [500, 1000, 2000]
     sizes:
       mobile: 40vw
