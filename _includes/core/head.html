@@ -8,7 +8,7 @@
   <link href="https://gmpg.org/xfn/11" rel="profile">
 
   <!-- Prefetch the pages in the navigation menu -->
-  {% assign entries = site.pages | where: "lang", page.lang | sort: "order" %}
+  {% assign entries = site.posts | where: "category", "indice" | sort: "order" %}
   {% for entry in entries %}
   {% unless entry.exclude == true %}
   <link rel="prefetch" href="{{ site.baseurl }}{{ entry.url }}">
