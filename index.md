@@ -3,11 +3,11 @@ layout: home
 title: O livro de Cesário Verde
 image: capa
 ---
-
+<div class="posts">
 {% for post in site.posts limit: 5 %}
 {% assign length = site.posts.size %}
 {% assign lengthID = site.posts.size | plus: 1%}
-<div class="posts">
+
   <div id="js-{{ forloop.index }}" class="post -fixed{% if forloop.index == 1 %} -first{% endif %}{% if forloop.index == length %} -last{% endif %}">
     <span id="{{ post.url | remove: '/' }}">
     {% if forloop.index != 1 %}
