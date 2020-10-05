@@ -18,8 +18,8 @@ image: capa
       </div>
     {% endif %}
     </span>
- 	{% picture {{ post.image | append: ".jpg" }} --alt {{ post.image }} --img class="post-image" --img loading="lazy" style="z-index: {{ lengthID | minus: forloop.index }}" %}
-	<div class="ctnr-wide">
+	<img src="blur.jpg" --alt "{{ post.image }}" --img class="post-image" --img loading="lazy" style="z-index: {{ lengthID | minus: forloop.index }}" data-echo="{{ post.image | append: ".jpg" }}" >
+ 	<div class="ctnr-wide">
     {{ post.content }}
     </div>
   </div>
